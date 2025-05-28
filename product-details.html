@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Details</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Header (same as other pages) -->
+  <header class="main-header">
+    <div class="container header-content">
+      <img src="images/logo.png" alt="Logo" class="logo"/>
+      <input type="text" class="search-bar" placeholder="Search products..." />
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="product-listing.html">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Product Details Section -->
+  <main class="product-details">
+    <div class="container product-info">
+      <img src="images/product1.jpg" alt="Product" class="product-image" />
+      <div class="product-text">
+        <h1>Cool Jacket</h1>
+        <p class="price">$49.99</p>
+        <p class="description">This stylish jacket is perfect for winter and fall.</p>
+
+        <!-- Size Dropdown -->
+        <label for="size">Select Size:</label>
+        <select id="size">
+          <option value="">Choose Size</option>
+          <option value="S">Small</option>
+          <option value="M">Medium</option>
+          <option value="L">Large</option>
+        </select>
+
+        <br><br>
+        <button class="buy-button">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- Customer Reviews -->
+    <section class="reviews container">
+      <h2>Customer Reviews</h2>
+      <p>⭐⭐⭐⭐☆ - Great quality and fast shipping!</p>
+    </section>
+  </main>
+
+  <!-- Footer (same as other pages) -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div>
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Returns</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

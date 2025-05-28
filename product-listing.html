@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Listing</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Header (copy from index.html) -->
+  <header class="main-header">
+    <div class="container header-content">
+      <img src="images/logo.png" alt="Logo" class="logo"/>
+      <input type="text" class="search-bar" placeholder="Search products..."/>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Product Listing Section -->
+  <main class="product-listing">
+    <h2>All Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/product1.jpg" alt="Product 1" />
+        <h3>Product Name</h3>
+        <p>$29.99</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+      <!-- Add more product-card divs here -->
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <button>1</button>
+      <button>2</button>
+      <button>Next</button>
+    </div>
+  </main>
+  <a href="product-listing.html">Shop Now</a>
+  <button onclick="location.href='product-listing.html'">Shop Now</button>
+  <a href="product-details.html">
+    <div class="product-card">
+      <img src="images/product1.jpg" alt="Product 1" />
+      <h3>Product Name</h3>
+      <p>$29.99</p>
+      <button class="buy-button">Buy Now</button>
+    </div>
+  </a>
+  <button onclick="location.href='product-details.html'">Buy Now</button>  
+
+  <!-- Footer (copy from index.html) -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div>
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Returns</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

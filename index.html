@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container nav">
+          <img src="assets/images/logo.png" alt="Logo" class="logo" />
+          <input type="text" placeholder="Search..." class="search-bar" />
+          <nav>
+            <ul class="nav-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="home-main">
+        <!-- Hero Section -->
+        <section class="hero">
+          <img src="images/hero-banner.jpg" alt="Sale Banner" class="hero-image" />
+          <div class="hero-text">
+            <h1>Big Sale on Fashion</h1>
+            <p>Up to 50% off on selected items</p>
+            <button class="cta-button">Shop Now</button>
+          </div>
+        </section>
+      
+        <!-- Featured Categories -->
+        <section class="featured-categories">
+          <h2>Featured Categories</h2>
+          <div class="categories-grid">
+            <div class="category-card">
+              <img src="images/shoes.jpg" alt="Shoes" />
+              <p>Shoes</p>
+            </div>
+            <div class="category-card">
+              <img src="images/jackets.jpg" alt="Jackets" />
+              <p>Jackets</p>
+            </div>
+            <div class="category-card">
+              <img src="images/accessories.jpg" alt="Accessories" />
+              <p>Accessories</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <main class="product-listing">
+        <h2>All Products</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="images/product1.jpg" alt="Product 1" />
+            <h3>Ladies Bag</h3>
+            <p>$29.99</p>
+            <button class="buy-button">Buy Now</button>
+          </div>
+          <!-- Repeat product-card for other products -->
+        </div>
+        <a href="product-listing.html">Shop Now</a>
+        <button onclick="location.href='product-listing.html'">Shop Now</button>
+        <a href="product-details.html">
+          <div class="product-card">
+            <img src="images/product1.jpg" alt="Product 1" />
+            <h3>Product Name</h3>
+            <p>$29.99</p>
+            <button class="buy-button">Buy Now</button>
+          </div>
+        </a>
+        
+        <!-- Pagination or Load More -->
+        <div class="pagination">
+          <button>1</button>
+          <button>2</button>
+          <button>Next</button>
+        </div>
+      </main>
+      
+      
+    
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Returns</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <p>&copy; 2025 eCommerce Site</p>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>
